@@ -4,7 +4,7 @@ const stream = require('stream')
 const querystring = require('querystring')
 
 const FormData = require('form-data')
-const fileType = require('file-type')
+const fileType = import('file-type')
 
 exports = module.exports = fnProto(function SauceNAO(...args) {
   let api_key
